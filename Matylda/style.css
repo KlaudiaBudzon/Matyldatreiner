@@ -1,0 +1,293 @@
+body {
+    background-color: rgb(5, 5, 5);
+    font-family: 'KoHo', sans-serif;
+    min-height: 100%;
+    position: relative;
+
+
+}
+
+html {
+    height: 100%;
+}
+
+.tittles {
+    line-height: 60%;
+    display: flex
+}
+
+.tittleone {
+    color: rgba(230, 28, 42, 0.722);
+    text-shadow: rgb(81, 70, 70) 0.1em 0.1em 0.2em;
+    font-size: 48px;
+    margin-left: 90px;
+    margin-top: 80px;
+    -webkit-text-stroke: 2px rgb(104, 9, 9);
+    /* width and color */
+    ;
+    letter-spacing: 0.30em
+}
+
+.strong {
+    margin-left: 30px;
+}
+
+.tittletwo {
+    color: rgba(230, 28, 42, 0.529);
+    -webkit-text-stroke: 1px rgb(66, 5, 5);
+    /* width and color */
+    text-shadow: rgb(81, 70, 70) 0.1em 0.1em 0.2em;
+    margin-left: 100px;
+    font-size: 20px;
+    letter-spacing: 0.3em
+}
+
+.buttons {
+    margin-left: auto;
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 30px;
+    color: rgba(239, 235, 235, 0.4);
+    -webkit-text-stroke: 0.5px rgba(181, 176, 176, 0.704);
+    /* width and color */
+    letter-spacing: 6px;
+    margin-top: 80px;
+
+
+
+}
+
+
+.me {
+    background-image: url("./assets/sep09.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    padding: 100px 170px 100px 170px;
+
+
+}
+
+.profile-picture {
+    height: 300px;
+    width: 300px;
+    border-style: hidden -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -webkit-box-shadow: -59px 46px 58px -10px rgba(66, 68, 90, 0.37);
+    -moz-box-shadow: -59px 46px 58px -10px rgba(66, 68, 90, 0.37);
+    box-shadow: -59px 46px 58px -10px rgba(66, 68, 90, 0.37);
+    /*position: relative;*/
+    margin-left: 90px;
+
+
+}
+
+.offerts {
+    background-image: ("assets/beton.jpg");
+    background-size: cover;
+
+}
+
+.whoamI {
+    color: rgb(233, 62, 72);
+    text-shadow: rgb(100, 75, 75) 0.1em 0.1em 0.2em;
+    font-size: 35px;
+    margin-left: 10px;
+    -webkit-text-stroke: 2px rgba(104, 9, 9, 0.704);
+    /* width and color */
+    letter-spacing: 6px
+}
+
+.profile-picture-containers {
+    position: relative;
+    z-index: 2;
+
+}
+
+.profile-picture-overlay {
+    position: absolute;
+    left: 25px;
+    bottom: 70px;
+    z-index: -1;
+    height: 300px;
+    width: 300px;
+    -webkit-box-shadow: -59px 46px 58px -10px rgba(66, 68, 90, 0.37);
+    -moz-box-shadow: -59px 46px 58px -10px rgba(66, 68, 90, 0.37);
+    box-shadow: -59px 46px 58px -10px rgba(66, 68, 90, 0.37);
+}
+
+.tekst {
+    color: rgba(255, 255, 255, 0.837);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.bingo {
+    color: beige;
+    height: 200px;
+    width: 200px;
+}
+
+.list {
+    color: rgb(182, 12, 12);
+    text-shadow: rgb(36, 26, 26) 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+.what {}
+
+.cennik {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 350px 20px 250px;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+    gap: 0px 100px;
+    list-style-image: url('https://www.aurainweb.pl/wp-content/uploads/2017/08/favicon.png');
+}
+
+.sectionaboutmoney {
+    color: white;
+
+
+}
+
+.tittlehowmuch {
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin-left: 30px;
+    margin-top: 180px;
+    
+}
+
+.tittlewhere {
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+
+
+
+
+}
+
+.notimportant {
+    font-size: 12px;
+    letter-spacing: 0, 8px;
+}
+
+.tittlewhere1 {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-left: 285px;
+    color: rgb(182, 12, 12);
+    text-shadow: rgb(36, 26, 26) 0.1em 0.1em 0.2em;
+
+
+}
+
+.tittlewhere2 {
+    letter-spacing: 3px;
+    margin-left: 100px;
+    margin-top: -50px;
+
+}
+
+.cennik1 {
+    font-weight: bold;
+    color: rgb(182, 12, 12);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 350px 20px 250px;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+    text-shadow: rgb(52, 38, 38) 0.1em 0.1em 0.2em;
+    padding-left: 40px;
+}
+
+.ToKontakt {
+    font-size: 20px;
+    letter-spacing: 10px;
+    justify-content: center;
+    color: rgb(121, 124, 126);
+    margin-top: 200px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+}
+
+.button1 {
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: rgb(122, 126, 129);
+    display: flex;
+
+}
+
+.button {
+    font-size: 30px;
+    letter-spacing: 5px;
+    justify-content: center;
+    color: rgb(121, 124, 126);
+    font-weight: bold;
+
+    display: flex;
+    text-decoration: none;
+
+    background-color: rgb(5, 5, 5);
+    color: #9c3030;
+    border: 4px solid #beb3b3a3;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 25px;
+    text-decoration: none;
+    transition-duration: 0.6s;
+    text-transform: uppercase;
+    margin: 5px 5px;
+    display: inline-block;
+    margin-left: 550px;
+
+}
+
+.button:hover {
+    background-color: rgba(124, 19, 19, 0.729);
+    color: rgba(5, 4, 4, 0.978);
+    border: 3px solid rgb(233, 229, 229);
+    font-weight: bolder;
+}
+
+
+
+.footer {
+    position: relative;
+    background-color: #1E1919;
+    clear: both;
+    margin-bottom: 0%;
+    font-size:
+}
+
+.cialko {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#push {
+    clear: both;
+    height: 100px;
+}
+
+
